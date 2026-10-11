@@ -365,6 +365,7 @@ func migrateDB() error {
 		&CustomOAuthProvider{},
 		&UserOAuthBinding{},
 		&AIModelTopupGrant{},
+		&AIModelBalanceOperation{},
 		&PerfMetric{},
 		&SystemInstance{},
 		&SystemTask{},
